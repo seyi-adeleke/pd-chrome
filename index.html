@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <script src="script.js"></script>
+    </head>
+    <body>
+      <h1>Plis dear I want to be productive.</h1>
+      <hr>
+      <style type="text/css">
+        body {
+          margin: 10px;
+          white-space: nowrap;
+        }
+  
+        h1 {
+          font-size: 15px;
+        }
+
+        h2 {
+            font-size: 12px;
+        }
+
+        .container {
+          align-items: center;
+          display: flex;
+          justify-content: space-between;
+        }
+
+        #urlContainer, #timeContainer {
+            display: flex;
+            flex-direction: column;
+        }
+      </style>
+        <h2>Block these sites</h2>
+        <div class='container'>
+            <div id='urlContainer'>
+                <input type='url' name="url" id='iniitalUrlField'/>
+            </div>
+            <div>
+                <button id='addInput'>+</button>
+                <button id='removeInput'>-</button>
+            </div>
+        </div>
+        <br />
+
+        <div class="container">
+                <div id='timeContainer'>
+                    <input/>
+                </div>
+                <div>
+                    <input/>
+                </div>
+            </div>
+        <button id='save'>Save</button>
+    </body>
+</html>
